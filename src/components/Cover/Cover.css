@@ -1,0 +1,47 @@
+.main-image {
+    border-radius: 50%;
+}
+
+.text-muted {
+    color: inherit;
+    font-weight: 700;
+    line-height: 1.1;
+    opacity: .65;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+ul {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+li {
+    align-self: auto;
+    flex: 1 1 auto;
+}
+
+.img-social {
+    height: 64px;
+    width: 64px;
+}
+
+@media (max-width: 780px) {
+    ul {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .img-social {
+        height: 32px;
+        width: 32px;
+    }
+
+}
