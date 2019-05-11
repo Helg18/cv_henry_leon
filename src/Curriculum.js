@@ -3,10 +3,6 @@ import './Curriculum.css'
 import Cover from './components/Cover/Cover'
 
 class Curriculum extends React.Component {
-    componentDidMount() {
-        document.title = "Henry Leon | Full Stack Web Developer"
-    }
-
     render() {
         return (
             <div className="Curriculum">
