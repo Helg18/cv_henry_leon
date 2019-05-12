@@ -5,8 +5,6 @@ class Header extends React.Component {
     render() {
         return (
             <div className="header">
-                <div className="header-menu"></div>
-                <div className="header-space"></div>
                 <div className="flag-box">
                     <a href="/en"><img className="flags-lang" src="https://image.flaticon.com/icons/svg/299/299459.svg"
                                        alt="USA"/></a>
