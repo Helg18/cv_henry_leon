@@ -22,10 +22,14 @@
 @media (max-width: 480px) {
     .header {
         padding: 5px;
-        margin-bottom: -80px;
     }
     .flags-lang {
         height: 32px;
         width: 32px;
     }
+
+    .flag-box {
+        position: unset;
+    }
+
 }
