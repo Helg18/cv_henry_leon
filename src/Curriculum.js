@@ -45,7 +45,7 @@ class Curriculum extends React.Component {
             return Curriculum._getLayout('es');
         }
 
-        window.location.href = "en";
+        return Curriculum._getLayout('en')
     }
 }
 
