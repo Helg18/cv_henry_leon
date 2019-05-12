@@ -9,5 +9,9 @@
     "github": "https://github.com/helg18",
     "telegram": "https://t.me/helg18",
     "skype": "skype:henry-0261?chat"
+  },
+  "aboutme": {
+    "title": "About me",
+    "description": "I am a full stack developer, I have worked in different projects with people from all over the world in order to develop solutions for clients, I like to work with other people to contribute ideas and build high quality code applying SOLID principles and design patterns for guarantee a maintainable and scalable code. I have worked in the development with different technologies. Many of the projects that I have worked on are private, others public, but the knowledge is always with me. You can see a sample of my code in my github account."
   }
 }

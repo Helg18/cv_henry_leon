@@ -9,5 +9,9 @@
     "github": "https://github.com/helg18",
     "telegram": "https://t.me/helg18",
     "skype": "skype:henry-0261?chat"
+  },
+  "aboutme": {
+    "title": "Acerca de mi",
+    "description": "Soy desarrollador full stack, he trabajado en distintos proyectos con personas de todo el mundo con finalidad de desarrollar soluciones para lo clientes, me gusta trabajar junto a otras personas para poder aportar ideas y contruir codigo alta de calidad aplicando principios SOLID y patrones de diseño para garantizar un codigo mantenible y escalable. He trabajado en el desarrollo con diferentes tecnologias. Muchos de los proyectos en los que he trabajado son privados, otros publicos, pero los conocimientos los llevo conmigo siempre. Puedes ver una muestra de mi codigo en mi cuenta de github. "
   }
 }

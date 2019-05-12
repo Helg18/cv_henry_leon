@@ -1,3 +1,8 @@
+hr {
+    min-width: 100%;
+    border-color: #1FA184;
+    opacity: .6;
+}
 .Curriculum {
     text-align: center;
     background-color: #121f26;
@@ -8,15 +13,32 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    padding-bottom: 25px;
 }
 
 .Bloque {
     width: 40%;
-    min-height: 50vh;
+    min-height: 50%;
     background-color: #1FA184;
     border-radius: 10px;
     margin: 5px;
     padding: 10px;
+}
+
+.container {
+    width: 40%;
+    min-height: 50%;
+    background-color: #313C42;
+    border-radius: 10px;
+    margin: 25px 5px 5px 5px;
+    padding: 10px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title {
+    margin: 15px 5px 5px 5px;
 }
 
 
@@ -25,5 +47,11 @@
         width: 90%;
         min-height: 100%;
         margin: 2px;
+    }
+
+    .container {
+        width: 90%;
+        min-height: 100%;
+        margin: 8px;
     }
 }

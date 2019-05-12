@@ -1,8 +1,10 @@
 import React from 'react';
 import './Curriculum.css'
 import {TranslatorProvider} from 'react-translate';
+
 import Header from './components/Header/Header'
 import Cover from './components/Cover/Cover'
+import Aboutme from './components/AboutMe/Aboutme'
 
 class Curriculum extends React.Component {
     constructor(props) {
@@ -34,7 +36,10 @@ class Curriculum extends React.Component {
                     telegram="telegram"
                     skype="skype"
                 />
-                {/*About Me*/}
+                <Aboutme
+                    title="title"
+                    description="description"
+                />
                 {/*General Info*/}
                 {/*Work Experience*/}
                 {/*Education*/}

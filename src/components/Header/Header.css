@@ -4,12 +4,13 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
-    margin-bottom: -92px;
+    /*margin-bottom: -92px;*/
 }
 
 .flag-box {
     padding: 20px;
     flex: 0 0 auto;
+    position: fixed;
 }
 
 .flags-lang {
