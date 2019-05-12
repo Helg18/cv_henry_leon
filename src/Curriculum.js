@@ -5,11 +5,24 @@ import Header from './components/Header/Header'
 import Cover from './components/Cover/Cover'
 
 class Curriculum extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            lang: 'en'
+        };
+        this.onChangeLang = this.onChangeLang.bind(this);
+    }
 
-    static _getLayout(lang) {
+    onChangeLang(event) {
+        this.setState({
+            lang: event.target.alt
+        })
+    }
+
+    getLayout(lang) {
         const langFile = require('./lang/' + lang + '.json');
         return (<TranslatorProvider translations={langFile}>
-            <Header/>
+            <Header onClick={this.onChangeLang}/>
             <div className="Curriculum">
                 <Cover
                     first_name="first_name"
@@ -36,16 +49,16 @@ class Curriculum extends React.Component {
     }
 
     render() {
-        let url = window.location.href;
+        let lang = 'en';
 
-        if (url.search('/en') !== -1) {
-            return Curriculum._getLayout('en')
+        if (this.state.lang === 'en') {
+            lang = 'en';
         }
-        if (url.search('/es') !== -1) {
-            return Curriculum._getLayout('es');
+        if (this.state.lang === 'es') {
+            lang = 'es';
         }
 
-        return Curriculum._getLayout('en')
+        return this.getLayout(lang)
     }
 }
 
