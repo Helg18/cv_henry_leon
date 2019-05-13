@@ -43,11 +43,6 @@
     font-size: .7em;
 }
 
-progress {
-    padding: 3px;
-    border-radius: 30px;
-}
-
 @media (max-width: 780px) {
     .fist-block {
         flex-direction: column;

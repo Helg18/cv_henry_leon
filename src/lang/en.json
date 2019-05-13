@@ -42,5 +42,8 @@
     "spanish": "Spanish",
     "spanish_nivel_num": "95",
     "spanish_nivel_text": "Native"
+  },
+  "professionalinfo": {
+    "title": "Skills"
   }
 }
