@@ -11,7 +11,8 @@ class Cover extends React.Component {
                      src="https://media.licdn.com/dms/image/C5603AQFJHJ3E7F6XaQ/profile-displayphoto-shrink_200_200/0?e=1562803200&v=beta&t=gKrZupaaF-vHKjAKBL_AkLUeyEBGVfOFuKlAH4y3yTI"
                      alt="Henry Leon Gomez"/>
                 <h2 className="text-upper">{t(this.props.first_name)} {t(this.props.last_name)}</h2>
-                <p className="text-muted">{t(this.props.profession)}</p>
+                <p className="text-muted ">{t(this.props.profession)}</p>
+                <h6 className="text-muted text-upper">{t(this.props.professional)}</h6>
                 <ul>
                     <li>
                         <a href={'mailto:' + t(this.props.email)} rel="noreferrer noopener" target="_blank">

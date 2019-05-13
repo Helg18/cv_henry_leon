@@ -20,8 +20,12 @@ class GeneralInfo extends React.Component {
                     show_dob="show_dob"
                     email="email"
                     show_email="show_email"
-                    nacionality="nacionality"
-                    show_nacionality="show_nacionality"
+                    nationality="nationality"
+                    show_nationality="show_nationality"
+                    date_of_graduation="date_of_graduation"
+                    show_date_of_graduation="show_date_of_graduation"
+                    university_name="university_name"
+                    show_university_name="show_university_name"
                 />
                 <Languages
                     title="title"

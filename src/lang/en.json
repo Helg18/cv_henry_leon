@@ -3,6 +3,7 @@
   "cover": {
     "first_name": "Henry",
     "last_name": "Leon Gomez",
+    "professional": "Systems Engineer",
     "profession": "Full Stack Developer",
     "email": "helg18@gmail.com",
     "linkedin": "https://www.linkedin.com/in/henryleongomez",
@@ -25,8 +26,13 @@
     "show_dob": "03-Nov-1989",
     "email": "E-mail: ",
     "show_email": "helg18@gmail.com",
-    "nacionality": "Nacionality:  ",
-    "show_nacionality": "Venezuelan"
+    "nationality": "Nationality:  ",
+    "show_nationality": "Venezuelan",
+    "date_of_graduation": "Date of graduation",
+    "show_date_of_graduation": "DEC-2011",
+    "university_name": "University: ",
+    "show_university_name": "Jose Gregorio Hernandez",
+    "university_web": "http://ujgh.edu.ve"
   },
   "languages": {
     "title": "Languages",

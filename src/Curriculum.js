@@ -30,6 +30,7 @@ class Curriculum extends React.Component {
                 <Cover
                     first_name="first_name"
                     last_name="last_name"
+                    professional="professional"
                     profession="profession"
                     email="email"
                     linkedin="linkedin"
