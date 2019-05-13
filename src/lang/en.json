@@ -12,6 +12,29 @@
   },
   "aboutme": {
     "title": "About me",
-    "description": "I am a full stack developer, I have worked in different projects with people from all over the world in order to develop solutions for clients, I like to work with other people to contribute ideas and build high quality code applying SOLID principles and design patterns for guarantee a maintainable and scalable code. I have worked in the development with different technologies. Many of the projects that I have worked on are private, others public, but the knowledge is always with me. You can see a sample of my code in my github account."
+    "description": "I am a full stack developer, I have worked in different projects with people from all over the world in order to develop solutions for clients, I like to work together with other people to be able to contribute ideas and build high quality code applying SOLID principles and standards. design to guarantee a maintainable and scalable code. I have worked in the development with different technologies. Many of the projects that I have worked on are private, others public, but the knowledge is always with me. You can see a sample of my code in my github account. "
+  },
+  "generalinfo": {
+    "title": "General Information"
+  },
+  "personalinfo": {
+    "title": "Personal Information",
+    "full_name": "Name: ",
+    "show_full_name": "Henry Leon Gomez",
+    "dob": "D. O. B.: ",
+    "show_dob": "03-Nov-1989",
+    "email": "E-mail: ",
+    "show_email": "helg18@gmail.com",
+    "nacionality": "Nacionality:  ",
+    "show_nacionality": "Venezuelan"
+  },
+  "languages": {
+    "title": "Languages",
+    "ingles": "English",
+    "ingles_nivel_num": "60",
+    "ingles_nivel_text": "Intermediate",
+    "spanish": "Spanish",
+    "spanish_nivel_num": "95",
+    "spanish_nivel_text": "Native"
   }
 }

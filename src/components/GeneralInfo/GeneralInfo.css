@@ -1,0 +1,53 @@
+.fist-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.personal-info {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.languages-info {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dl {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.dd, .dt {
+    flex-basis: 50%;
+    margin: 5px;
+    text-align: start;
+}
+
+.dd {
+    font-size: .8em;
+    max-width: 45%;
+    opacity: .6;
+}
+
+.dt {
+    font-size: .7em;
+}
+
+progress {
+    padding: 3px;
+    border-radius: 30px;
+}
+
+@media (max-width: 780px) {
+    .fist-block {
+        flex-direction: column;
+    }
+}

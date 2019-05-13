@@ -12,6 +12,29 @@
   },
   "aboutme": {
     "title": "Acerca de mi",
-    "description": "Soy desarrollador full stack, he trabajado en distintos proyectos con personas de todo el mundo con finalidad de desarrollar soluciones para lo clientes, me gusta trabajar junto a otras personas para poder aportar ideas y contruir codigo alta de calidad aplicando principios SOLID y patrones de diseño para garantizar un codigo mantenible y escalable. He trabajado en el desarrollo con diferentes tecnologias. Muchos de los proyectos en los que he trabajado son privados, otros publicos, pero los conocimientos los llevo conmigo siempre. Puedes ver una muestra de mi codigo en mi cuenta de github. "
+    "description": "Soy desarrollador full stack, he trabajado en distintos proyectos con personas de todo el mundo con la finalidad de desarrollar soluciones para los clientes, me gusta trabajar junto a otras personas para poder aportar ideas y construir codigo de alta calidad aplicando principios SOLID y patrones de diseño para garantizar un codigo mantenible y escalable. He trabajado en el desarrollo con diferentes tecnologias. Muchos de los proyectos en los que he trabajado son privados, otros publicos, pero los conocimientos los llevo conmigo siempre. Puedes ver una muestra de mi codigo en mi cuenta de github. "
+  },
+  "generalinfo": {
+    "title": "Informacion General"
+  },
+  "personalinfo": {
+    "title": "Informacion Personal",
+    "full_name": "Nombre: ",
+    "show_full_name": "Henry Leon Gomez",
+    "dob": "F. D. N.: ",
+    "show_dob": "03-Nov-1989",
+    "email": "E-mail: ",
+    "show_email": "helg18@gmail.com",
+    "nacionality": "Nacionalidad: ",
+    "show_nacionality": "Venezolano"
+  },
+  "languages": {
+    "title": "Idiomas",
+    "ingles": "Ingles",
+    "ingles_nivel_num": "60",
+    "ingles_nivel_text": "Intermedio",
+    "spanish": "Español",
+    "spanish_nivel_num": "95",
+    "spanish_nivel_text": "Nativo"
   }
 }
