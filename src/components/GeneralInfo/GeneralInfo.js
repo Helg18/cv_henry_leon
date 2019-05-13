@@ -11,7 +11,7 @@ class GeneralInfo extends React.Component {
             <div className="container">
                 <h5 className="text-upper title">{t(this.props.title)}</h5>
                 <hr/>
-                {/*<div className="fist-block">*/}
+                <div className="fist-block">
                 <PersonalInfo
                     title="title"
                     full_name="full_name"
@@ -32,7 +32,7 @@ class GeneralInfo extends React.Component {
                     spanish_nivel_num="spanish_nivel_num"
                     spanish_nivel_text="spanish_nivel_text"
                 />
-                {/*</div>*/}
+                </div>
             </div>
         )
     }

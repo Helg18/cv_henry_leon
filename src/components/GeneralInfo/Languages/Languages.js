@@ -12,6 +12,7 @@ class Languages extends React.Component {
                         <div className="dd text-upper">{t(this.props.ingles)}</div>
                         <div className="dt">
                             <progress max="100" value={t(this.props.ingles_nivel_num)}/>
+                            <br/>
                             {t(this.props.ingles_nivel_text)}
                         </div>
                     </div>
@@ -19,6 +20,7 @@ class Languages extends React.Component {
                         <div className="dd text-upper">{t(this.props.spanish)}</div>
                         <div className="dt">
                             <progress max="100" value={t(this.props.spanish_nivel_num)}/>
+                            <br/>
                             {t(this.props.spanish_nivel_text)}
                         </div>
                     </div>
