@@ -25,7 +25,7 @@ class Languages extends React.Component {
                     <div className="dl">
                         <div className="dd text-upper">{t(this.props.spanish)}</div>
                         <div className="dt">
-                            {t(this.props.spanish_nivel_num)}
+                            {t(this.props.spanish_nivel_num)}%
                             <Progress
                                 percent={t(this.props.spanish_nivel_num)}
                                 status="success"
