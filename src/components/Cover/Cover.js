@@ -1,6 +1,7 @@
 import React from 'react'
 import './Cover.css'
 import {translate} from "react-translate";
+import photoProfile from "./img/profile.png";
 
 class Cover extends React.Component {
     render() {
@@ -8,7 +9,7 @@ class Cover extends React.Component {
         return (
             <div className="Bloque">
                 <img className="main-image"
-                     src="https://media.licdn.com/dms/image/C5603AQFJHJ3E7F6XaQ/profile-displayphoto-shrink_200_200/0?e=1562803200&v=beta&t=gKrZupaaF-vHKjAKBL_AkLUeyEBGVfOFuKlAH4y3yTI"
+                     src={photoProfile}
                      alt="Henry Leon Gomez"/>
                 <h2 className="text-upper">{t(this.props.first_name)} {t(this.props.last_name)}</h2>
                 <p className="text-muted ">{t(this.props.profession)}</p>
